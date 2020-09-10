@@ -36,6 +36,7 @@
                 android:padding="8dp"
                 android:text="@string/dummy_photos"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                style="@style/TextContent.Small.White"
                 android:textColor="@android:color/white" />
 
         </FrameLayout>
@@ -52,6 +53,7 @@
             android:text="@string/dummy_value"
             android:textColor="@android:color/white"
             android:textSize="32sp"
+            style="@style/TextContent.Black"
             android:textStyle="bold" />
 
         <TextView
@@ -62,6 +64,7 @@
             android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:text="@string/stock"
             android:textColor="@android:color/darker_gray"
+            style="@style/TextContent.Subtitle"
             android:textSize="12sp" />
 
         <TextView
@@ -72,6 +75,7 @@
             android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:lineSpacingMultiplier="1"
             android:text="@string/content_text"
+            style="@style/TextContent"
             android:textColor="@android:color/white" />
 
         <TextView
@@ -83,6 +87,7 @@
             android:text="@string/specification"
             android:textColor="@android:color/darker_gray"
             android:textSize="12sp"
+            style="@style/TextContent.Subtitle"
             android:textStyle="bold" />
 
         <TableLayout
@@ -106,6 +111,7 @@
                     android:gravity="center"
                     android:text="@string/display"
                     android:textColor="@android:color/darker_gray"
+                    style="@style/TextSpec.Field"
                     android:textSize="14sp" />
 
                 <TextView
@@ -114,6 +120,7 @@
                     android:layout_weight="1"
                     android:text="@string/content_specs_display"
                     android:textColor="@android:color/white"
+                    style="@style/TextSpec.Value"
                     android:textSize="14sp" />
             </TableRow>
 
@@ -131,6 +138,7 @@
                     android:gravity="center"
                     android:text="@string/size"
                     android:textColor="@android:color/darker_gray"
+                    style="@style/TextSpec.Field"
                     android:textSize="14sp" />
 
                 <TextView
@@ -139,6 +147,7 @@
                     android:layout_weight="1"
                     android:text="@string/content_specs_size"
                     android:textColor="@android:color/white"
+                    style="@style/TextSpec.Value"
                     android:textSize="14sp" />
             </TableRow>
 
@@ -156,6 +165,7 @@
                     android:gravity="center"
                     android:text="@string/battery"
                     android:textColor="@android:color/darker_gray"
+                    style="@style/TextSpec.Field"
                     android:textSize="14sp" />
 
                 <TextView
@@ -164,6 +174,7 @@
                     android:layout_weight="1"
                     android:text="@string/content_specs_battery"
                     android:textColor="@android:color/white"
+                    style="@style/TextSpec.Value"
                     android:textSize="14sp" />
             </TableRow>
         </TableLayout>
@@ -176,6 +187,7 @@
             android:layout_marginBottom="8dp"
             android:text="@string/seller"
             android:textColor="@android:color/darker_gray"
+            style="@style/TextContent.Subtitle"
             android:textSize="12sp" />
 
         <RelativeLayout
@@ -201,6 +213,7 @@
                 android:layout_toEndOf="@id/profile_image"
                 android:layout_toRightOf="@id/profile_image"
                 android:text="@string/my_name"
+                style="@style/TextContent"
                 android:textColor="@android:color/white" />
         </RelativeLayout>
 
@@ -214,6 +227,7 @@
             android:background="@drawable/custom_button"
             android:text="@string/buy"
             android:textColor="@android:color/white"
+            style="@style/ButtonGeneral"
             android:textStyle="bold" />
 
     </LinearLayout>
